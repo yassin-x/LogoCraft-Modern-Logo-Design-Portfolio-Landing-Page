@@ -48,8 +48,8 @@ export default function Nav() {
 
       <div
         className={cn(
-          "bg-background w-full overflow-hidden fixed top-13 rounded-b-md shadow-md left-0 z-50 p-6 flex-col md:-translate-y-full transition-transform duration-300 ease-in-out",
-          openMenu ? "translate-y-0" : "-translate-y-full top-0"
+          "bg-background w-full overflow-hidden fixed top-13 rounded-b-md shadow-md left-0 z-50 p-6 flex-col md:-translate-y-full md:hidden transition-transform duration-300 ease-in-out",
+          openMenu ? "translate-y-0 flex" : "-translate-y-full top-0"
         )}
       >
         <ul className="flex flex-col items-start gap-4 mt-4">
